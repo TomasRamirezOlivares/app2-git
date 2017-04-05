@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>22</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visor-app2</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/easy/</ImageTemplate>
+            <ImageTemplateName>Easy</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#404449</TemplateColor>
+            <TemplateFont>Exo 2</TemplateFont>
+            <TemplateName>easy</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/imagenes/celularesargentina.png</url>
+                <title>celularesargentina</title>
+                <filesize>298611</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/imagenes/galaxys6edge.png</url>
+                <title>galaxys6edge</title>
+                <filesize>358464</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/imagenes/galaxys7edge2.png</url>
+                <title>galaxys7edge2</title>
+                <filesize>233041</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/imagenes/gamaalta.png</url>
+                <title>gamaalta</title>
+                <filesize>860423</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/imagenes/lg.png</url>
+                <title>lg</title>
+                <filesize>995671</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/imagenes/lgmagna1.png</url>
+                <title>lgmagna1</title>
+                <filesize>444690</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/imagenes/logo.png</url>
+                <title>logo</title>
+                <filesize>15117</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/imagenes/moto.png</url>
+                <title>moto</title>
+                <filesize>507781</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/imagenes/Samsung-Galaxy-J5-2016.png</url>
+                <title>Samsung-Galaxy-J5-2016</title>
+                <filesize>256506</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/imagenes/Sony-Xperia-L1-1.png</url>
+                <title>Sony-Xperia-L1-1</title>
+                <filesize>145202</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/aplicaciones/app2/imagenes/xperia.png</url>
+                <title>xperia</title>
+                <filesize>102799</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

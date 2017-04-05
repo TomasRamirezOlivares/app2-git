@@ -1,0 +1,460 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda aplicacion</title>
+
+   <!--grupo CSS-->
+   <link rel="stylesheet" href="css/tema-app1.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+   <!--grupo JavaScript-->
+   <script src="js/jquery-1.11.2.min.js"></script>
+   <script src="js/jquery.mobile-1.4.5.min.js"></script>
+   <script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+   <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+   </script>
+   <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+  <body onLoad="MM_preloadImages('imagenes/xperia.png','imagenes/lg.png')">
+  
+  <div data-role="page" id="Principal" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1> Telefonia celular </h1> 
+   </div>
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Celular Samsung Galaxy S7 edge</h1>
+          <div>
+              <p>celular Lg g5: </p> 
+             <br>
+          </div> 
+          <div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/lg.png',1)"><img src="imagenes/galaxys7edge2.png" width="625" height="600" id="Image5"></a> </div>
+     </div>
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Celular Samsung Galaxy S6 edge</h1>
+          <div>
+              <p> celular Sony Xperia Z5: </p> 
+             <br>
+          </div> 
+          <div>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/xperia.png',1)"><img src="imagenes/galaxys6edge.png" width="833" height="870" id="Image6"></a></div>
+     </div>
+    </div>
+         <div>
+         <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Definicion de telefono celular</h2>
+             <p>Se muestra la definicion de telefono celular</p>
+          </a>
+       </li>
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Historia de la telefonia celular</h2>
+             <p>Se muetra la historia de la telefonia celular</p>
+          </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+         <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Clasificacion de los celulares</h2>
+             <p>(Gama Baja,Gama Media,Gama Alta):</p>
+         </a>
+       </li>
+       <li class="ui-first-child ui-last-child"> 
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Compañias que ofrecen el servicio de telefonia celular en Mexico</h2>
+             <p>compañias Mexicanas:</p>
+         </a>
+       </li>
+         </ul>
+         <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/celularesargentina.png" alt="celularesargentina" title="celularesargentina" id="wows1_0"/></li>
+		<li><img src="data1/images/galaxys6edge.png" alt="galaxys6edge" title="galaxys6edge" id="wows1_1"/></li>
+		<li><img src="data1/images/galaxys7edge2.png" alt="galaxys7edge2" title="galaxys7edge2" id="wows1_2"/></li>
+		<li><img src="data1/images/gamaalta.png" alt="gamaalta" title="gamaalta" id="wows1_3"/></li>
+		<li><img src="data1/images/lg.png" alt="lg" title="lg" id="wows1_4"/></li>
+		<li><img src="data1/images/lgmagna1.png" alt="lgmagna1" title="lgmagna1" id="wows1_5"/></li>
+		<li><img src="data1/images/logo.png" alt="logo" title="logo" id="wows1_6"/></li>
+		<li><img src="data1/images/moto.png" alt="moto" title="moto" id="wows1_7"/></li>
+		<li><img src="data1/images/samsunggalaxyj52016.png" alt="Samsung-Galaxy-J5-2016" title="Samsung-Galaxy-J5-2016" id="wows1_8"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/sonyxperial11.png" alt="cssslider" title="Sony-Xperia-L1-1" id="wows1_9"/></a></li>
+		<li><img src="data1/images/xperia.png" alt="xperia" title="xperia" id="wows1_10"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="celularesargentina"><span><img src="data1/tooltips/celularesargentina.png" alt="celularesargentina"/>1</span></a>
+		<a href="#" title="galaxys6edge"><span><img src="data1/tooltips/galaxys6edge.png" alt="galaxys6edge"/>2</span></a>
+		<a href="#" title="galaxys7edge2"><span><img src="data1/tooltips/galaxys7edge2.png" alt="galaxys7edge2"/>3</span></a>
+		<a href="#" title="gamaalta"><span><img src="data1/tooltips/gamaalta.png" alt="gamaalta"/>4</span></a>
+		<a href="#" title="lg"><span><img src="data1/tooltips/lg.png" alt="lg"/>5</span></a>
+		<a href="#" title="lgmagna1"><span><img src="data1/tooltips/lgmagna1.png" alt="lgmagna1"/>6</span></a>
+		<a href="#" title="logo"><span><img src="data1/tooltips/logo.png" alt="logo"/>7</span></a>
+		<a href="#" title="moto"><span><img src="data1/tooltips/moto.png" alt="moto"/>8</span></a>
+		<a href="#" title="Samsung-Galaxy-J5-2016"><span><img src="data1/tooltips/samsunggalaxyj52016.png" alt="Samsung-Galaxy-J5-2016"/>9</span></a>
+		<a href="#" title="Sony-Xperia-L1-1"><span><img src="data1/tooltips/sonyxperial11.png" alt="Sony-Xperia-L1-1"/>10</span></a>
+		<a href="#" title="xperia"><span><img src="data1/tooltips/xperia.png" alt="xperia"/>11</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+            <img src="imagenes/logo.png" width="46" height="46"> 
+        </div>
+       <div> 
+       <h4>Aplicacion dos</h4>
+       <h4>Tomas Ramirez Olivares</h4>   
+       </div>  
+    </div> 
+  </div>
+  
+  
+   
+  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">     
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">  
+        <h2><p>Definicion</p></h2>
+      </div>
+     <div data-role="content" align="center">
+       <div>
+          <p>Teléfono móvil (o teléfono celular) Aparato telefónico de pequeño tamaño, portátil, sin hilos ni cables externos, para poder hablar desde cualquier lugar, siempre que sea dentro del área de cobertura del servicio que lo facilita.
+          Un teléfono celular es un dispositivo inalámbrico electrónico que permite tener acceso a la red de telefonía celular o móvil. Se denomina celular debido a las antenas repetidoras que conforman la red, cada una de las cuales es una célula, si bien existen redes telefónicas móviles satelitales. Su principal característica es su portabilidad, que permite comunicarse desde casi cualquier lugar. Aunque su principal función es la comunicación de voz, como el teléfono convencional, su rápido desarrollo ha incorporado otras funciones como son cámara fotográfica, agenda, acceso a internet, reproducción de video e incluso GPS y reproductor mp3.Se conoce como teléfono fijo al dispositivo no portátil que se encuentra enlazado con otro teléfono o con una central a través de conductores metálicos; en cambio, un teléfono celular o móvil es un equipo inalámbrico electrónico que accede a una red telefónica gracias a ondas de radio. En pocas palabras, el primero es aquél que hasta hace unos años se utilizaba en la casa, con modelos tanto cableados como inalámbricos, y el segundo tiene la capacidad de captar señal desde muchos puntos del globo, eliminando la necesidad de mantenerlo en una ubicación determinada.</p>  
+       </div>
+        <div data-role="collapsible" data-content-theme="false">
+       <h1>Samsung J2 </h1>
+          <div>
+              <p>Telefono celular 1: </p> 
+             <br>
+          </div> 
+          <div>
+          <img src="imagenes/smgj2.png" width="50%" height="50%">
+    </div>
+    </div>
+    <div data-role="collapsible" data-content-theme="false">
+       <h1>Motorola X</h1>
+          <div>
+              <p> Telefono celular 2: </p> 
+             <br>
+          </div> 
+          <div>
+        <img src="imagenes/moto.png" width="50%" height="50%">
+    </div>
+    </div> 
+    <div data-role="collapsible" data-content-theme="false">
+       <h1>Lg Magna</h1>
+          <div>
+              <p> Telefono celular 3: </p> 
+             <br>
+          </div> 
+          <div>
+      <img src="imagenes/lgmagna1.png" width="50%" height="50%">  
+    </div>
+    </div>  
+     <div data-role="footer" data-theme="a" data-position="fixed">
+      <div>
+            <img src="imagenes/logo.png" width="46" height="46"> 
+        </div>
+       <h4>Aplicacion Dos,TRO</h4>
+      </div>
+  </div>
+  
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+            <img src="imagenes/logo.png" width="46" height="46"> 
+        </div>
+       <div> 
+       <h4>App2</h4>
+       <h4>TRO</h4>   
+       </div>  
+    </div> 
+  </div> 
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">     
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">  
+        <h2><p>Historia</p></h2>
+      </div>
+     <div data-role="content" align="center">
+       <div>
+          <p> Un teléfono móvil es un aparato electrónico compuesto primariamente por un receptor y transmisor de señal, que usa la red de telefonía móvil de una determinada compañía telefónica para enviar y recibir datos y voz. Es habitual que en países Latino-Americanos, sean denominados como Celulares, y esto es debido a que el servicio funciona mediante el sistema de una red de celdas.
+La red de celdas es el conjunto de antenas repetidoras, donde el espacio que abarca cada una de ellas por separado recibe el nombre de célula. La comunicación telefónica móvil es posible gracias a la interconexión entre centrales móviles y publicas.
+La primera red comercial de telefonía móvil que el mundo vio nacer, fue en Japón a finales de los años 70, concretamente y para ser mas exactos en 1979, y su nombre fue NNT. A continuación le siguieron la estela los países nórdicos, tales como Suecia, Dinamarca, Noruega y Finlandia
+Los primeros teléfonos móviles
+En un principio, los primeros teléfonos móviles o celulares que salieron al mercado, eran dispositivos muy aparatosos y pesados, a la vez que estaban al alcance de unos pocos privilegiados, ya que su precio era de dimensiones astronómicas. Estos gigantescos y pesados terminales, tan solo servían para enviar y recibir tanto llamadas como mensajes de texto, aunque en aquella época nadie utilizaba el servicio de mensajería del teléfono móvil.
+El primer terminal móvil que apareció en Estados Unidos, fue un Motorola DynaTAC 8000x en 1983, y como podréis comprobar con vuestros propios ojos, nada tiene que ver con el mundo de la telefonía móvil tal y como lo conocemos en la actualidad. Además, su batería daba sólo para 1 hora de conversación antes de descargarse.
+Con 800 gramos de peso y unas dimensiones de 33 x 4,5 y 8,9 centímetros era un auténtico armatoste que poco tenía de dispositivo móvil y mas recordaba a las típicas películas bélicas y esos teléfonos tipo mochila que solía portear el ingeniero en telecomunicaciones.
+El precio que rondaba este Terminal de telefonía móvil sobre el año 1983, se acercaba a la escalofriante cifra de los 4000 Dólares Estadounidenses, una cifra mas que respetable para el nivel de vida de la época.Los teléfonos móviles en la actualidad
+Que la telefonía móvil a cambiado de manera mas que sustancial, es un hecho constatado en el cual caemos sin necesidad de tener que leer ningún estudio ni investigación al respecto, tan solo hace falta mirar la imagen y el diseño del primer Motorola y compararla con cualquier teléfono móvil de última generación que tengamos disponible en el mercado tecnológico actual.
+Comparando ambas imágenes, nos podemos dar cuenta a simple vista del profundo cambio que ha sufrido el mundo de la tecnología en el sector de las comunicaciones y telefonía móvil, y es mas fácil de comprender, el viejo dicho que dice que : “las comparaciones son odiosas”.
+
+Si en un principio, los terminales de telefonía móvil tan solo nos servían para llamar, recibir llamadas y mandar algún que otro mensaje de texto, esto en la actualidad en simplemente unas de las pocas funciones incluidas en estos auténticos mini-ordenadores de bolsillo.
+Además de las funciones propias de cualquier teléfono convencional, los últimos y mas avanzados modelos de telefonía móvil o mejor conocidos como Teléfonos inteligentes o Smartphones, nos ofrecen infinidad de servicios y aplicaciones móviles.
+
+Mas que unos simples teléfonos, son auténticos ordenadores que funcionan con sistemas operativos específicos y optimizados según las condiciones de cada terminal.
+  </p>  
+       </div>
+        <div data-role="collapsible" data-content-theme="false">
+       <h1>Telefonos celulares antiguos </h1>
+          <div>
+              <p>Telefonos celulares 1: </p> 
+             <br>
+          </div> 
+          <div>
+          <img src="imagenes/antiguosActuales.png" width="38%" height="32%">
+    </div>
+    </div>
+    <div data-role="collapsible" data-content-theme="false">
+       <h1>Telefonos celulares antiguos actuales</h1>
+          <div>
+              <p> Telefonos celulares 2: </p> 
+             <br>
+          </div> 
+          <div>
+        <img src="imagenes/antiguo.png" width="50%" height="50%">
+    </div>
+    </div> 
+    <div data-role="collapsible" data-content-theme="false">
+       <h1>Telefonos celulares actuales</h1>
+          <div>
+              <p> Telefonos celulares 3: </p> 
+             <br>
+          </div> 
+          <div>
+      <img src="imagenes/celularesargentina.png" width="36%" height="33%">  
+    </div>
+    </div>  
+     <div data-role="footer" data-theme="a" data-position="fixed">
+      <div>
+            <img src="imagenes/logo.png" width="46" height="46"> 
+        </div>
+       <h4>Aplicacion Dos,TRO</h4>
+      </div>
+  </div>
+  
+  
+  
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+            <img src="imagenes/logo.png" width="46" height="46"> 
+        </div>
+       <div> 
+       <h4>App2</h4>
+       <h4>TRO</h4>   
+       </div>  
+    </div> 
+  </div> 
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">     
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">  
+        <h2><p>Clasificacion</p></h2>
+      </div>
+     <div data-role="content" align="center">
+       <div>
+          <p>Sony sorprendió a medio mundo durante el MWC 2017 presentando uno de los mejores smartphones de la firma en mucho tiempo, el Xperia XZ Premium. Este espectacular dispositivo incluso ganó el premio a “Mejor Nuevo Smartphone” durante el evento celebrado en Barcelona. No obstante, el fabricante no se olvida de los otros sectores del mercado.
+Prueba de ello es el recién presentado Sony Xperia L1, un teléfono orientado hacia la gama media-baja con un precio y diseño realmente atractivos. Eso sí, según lo que hemos podido saber a través de PhoneArena, las especificaciones internas del Xperia L1 no son para tirar cohetes, sin embargo esto no significa que sea menos interesante.
+Tal y como podemos ver en la tabla de especificaciones, el hardware del nuevo Sony Xperia L1 es más bien discreto. El terminal posee una pantalla IPS LCD de 5,5 pulgadas con resolución HD. Posiblemente, este sea uno de los principales aspectos negativos del Xperia L1, ya que para estas dimensiones, 1280 x 720 puede llegar a quedarse corto.
+Bajo el capó se encuentra un procesador firmado por MediaTek, concretamente el MT6737T de cuatro núcleos a 1,4 GHz. El chip está acompañado de 2 GB de RAM y 16 GB de almacenamiento interno ampliable a través de tarjetas microSD de hasta 256 GB de memoria.
+El apartado fotográfico del Sony Xperia L1 va acorde con el resto del teléfono, y es que incorpora un sensor trasero de 13 megapíxeles mientras que el delantero es de 5 megapíxeles. En lo referente a batería, la de este dispositivo es de 2.620 mAh. Afortunadamente, la versión de Android que vendrá de fábrica con este terminal será 7.0 Nougat.</p>  
+       </div>
+        <div data-role="collapsible" data-content-theme="false">
+       <h1>GAMA BAJA Sony Xperia L1</h1>
+          <div>
+              <p>Gama Baja: </p> 
+             <br>
+          </div> 
+          <div>
+          <img src="imagenes/Sony-Xperia-L1-1.png" width="50%" height="50%">
+    </div>
+    </div>
+    <div>
+          <p>Seguimos con el Smartphone Samsung Galaxy J5 (2016), un excelente smartphone de gama media que rompe con todos los anteriores al incluir una pantalla Super AMOLED que proporciona unos colores mucho más vivos e intensos, se trata de un panel de 5 pulgadas con resolución 1280 x 720 píxeles con una excelente calidad de imagen. La pantalla cobra vída mediante un procesador procesador Qualcomm Snapdragon 410 de cuatro núcleos acompañado de 2 GB de RAM y 16 GB de almacenamiento ampliables que moverá a la perfección su sistema operativo Andorid 6.0 Marshmallow con la característica personalización TouchWiz. Cuenta con una gran batería de 3.100 mAh para una excelente autonomía junto a la eficiencia de su pantalla AMOLED y cámaras de 13 y 5 megapíxeles. </p>  
+       </div>
+    <div data-role="collapsible" data-content-theme="false">
+       <h1>GAMA MEDIA Samsung Galaxy J5</h1>
+          <div>
+              <p>Gama Media:</p> 
+             <br>
+          </div> 
+          <div>
+        <img src="imagenes/Samsung-Galaxy-J5-2016.png" width="50%" height="50%">
+    </div>
+    </div> 
+    <div>
+          <p>Samsung tiene en el Galaxy S8 el mejor smartphone, y se trata de una mejora con respecto al Galaxy S7 en todos los aspectos. Aprovecha al máximo los márgenes del frontal para incluir una pantalla de 5.8 pulgadas con una resolución atípica de 2960 x 1440 píxeles, en un tamaño de 148.9 x 68.1 x 8.0 mm, lo que le convierte en un teléfono algo grande.
+El procesador utilizado es un Snapdragon 835 en EE. UU., China y Japón, y un Exynos 8895 fuera de estos países, con 4 GB de RAM y 64 GB de almacenamiento ultrarrápido UFS 2.0. El botón de inicio está incluido en la propia pantalla, y el lector de huellas se ha movido a la parte posterior. Es el primer teléfono en incluir Bluetooth 5.0, y también tiene NFC y wifi 802.11 ac MU-MIMO.
+La cámara se mantiene más o menos similar a la del Galaxy S7, con un sensor Exmor RS IMX260 de Sony, con un sensor de 12 megapíxeles, con apertura f/1.7 y cámara Dual Pixel para realizar el autofoco más rápido del mercado. La gran novedad del teléfono es el asistente personal Bixby y sus periféricos y accesorios, como la base DeX para usarlo como un PC. </p>  
+       </div>
+    <div data-role="collapsible" data-content-theme="false">
+       <h1>GAMA ALTA Samsung Galaxy S8</h1>
+          <div>
+              <p>Gama Alta:</p> 
+             <br>
+          </div> 
+          <div>
+      <img src="imagenes/gamaalta.png" width="50%" height="50%">  
+    </div>
+    </div> 
+     <div data-role="footer" data-theme="a" data-position="fixed">
+      <div>
+            <img src="imagenes/logo.png" width="46" height="46"> 
+        </div>
+       <h4>Aplicacion Dos,TRO</h4>
+      </div>
+  </div>
+  
+  
+         
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+            <img src="imagenes/logo.png" width="46" height="46"> 
+        </div>
+       <div> 
+       <h4>App2</h4>
+       <h4>TRO</h4>   
+       </div>  
+    </div> 
+  </div> 
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">     
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">  
+        <h2><p>Compañias</p></h2>
+      </div>
+     <div data-role="content" align="center">
+       <div>
+          <p>Telcel forma parte del grupo América Móvil, el mayor proveedor de comunicación celular en Latinoamérica y el tercer lugar a nivel mundial. Cuenta con más de 328 millones de clientes y está presente en 18 países de América. Tan sólo en nuestro continente, América Móvil cuenta con mas de 30 millones de líneas fijas y 262.9 millones de suscriptores móviles.
+Con 24 años de experiencia, cobertura en más de 200 mil poblaciones y una comunidad de mas de 70 millones de usuarios, Telcel es la empresa líder de telecomunicaciones inalámbricas en México, la compañía de teléfonos celulares de mayor confianza en México y la segunda marca más valiosa de Latinoamérica. •	Mayor proveedor de comunicación celular en América Latina y tercer lugar a nivel mundial.
+Cuenta con más de 328 millones de clientes y está presente en 18 países de América. 
+Tan sólo en nuestro continente, América Móvil cuenta con mas de 30 millones de líneas fijas y 262.9 millones de suscriptores móviles.
+Tiene cobertura en más de 200 mil poblaciones.
+70 millones de usuarios.
+Más de 100 mil kilómetros de ejes carreteros, cubriendo así más del 90% de las zonas habitadas en México.
+La cobertura marítima e internacional se extiende en más de 180 países alrededor del mundo.
+40 mil puntos de venta en todo el país.
+Cuenta con 200 modelos de 18 marcas fabricantes.
+311 Centros de Atención a Clientes (CAC) ubicados en toda la República Mexicana.
+Siete de cada diez usuarios de telefonía móvil en México forman parte de la comunidad Telcel.
+Telcel es una marca propiedad de la empresa mexicana Radiomóvil DIPSA, S.A. de C.V.. Tiene presencia en todo México y se dedica a ofrecer servicios de telefonía móvil, telefonía fija, servicios de banda ancha, entre otros servicios.
+</p>  
+       </div>
+        <div data-role="collapsible" data-content-theme="false">
+       <h1>Logo telcel: </h1>
+          <div>
+              <p>Telcel: </p> 
+             <br>
+          </div> 
+          <div>
+          <img src="imagenes/quien-es-telcel.png" width="50%" height="50%">
+    </div>
+    </div>
+     <div data-role="content" align="center">
+     <div>
+          <p>Movistar México (legalmente Pegaso PCS, S.A. de C.V.), es una empresa proveedora de servicios de telefonía móvil en México, subsidiaria del Grupo Telefónica y su División Telefónica Móviles.
+Nueva imagen de Movistar[editar]
+Desde el año 2000 (en su entrada al mercado Mexicano) y hasta 2005, su imagen institucional era el texto "Telefónica MoviStar". Ese mismo año, tras la adquisición de las operadoras móviles de BellSouth en Centro y Sudamérica, unifica todas las operaciones en los países con presencia y, crea una nueva imagen llamada solo MOVISTAR, con la característica M en colores Azul y Verde. Como campaña de posicionamiento a nivel mundial, el tema musical "Walking on Sunshine", remake de la canción interpretado por JUMP 5, original de Katrina and the Waves, fue la elegida por Telefónica. Durante el 2010, se realiza una ligera modificación de su logo, conservando únicamente el mismo en color verde y las letras en azul.
+Movistar es la segunda compañía en México por número de usuarios y cobertura* y, la tercera en ingresos, después de AT&T.
+*MoviStar es la segunda empresa en cobertura 2G/3G, por debajo de Telcel y, la Tercera en Cobertura 4G LTE al tener servicio en solo 23 ciudades.
+Los registros, al 30 de junio de 2016, indican más de 27.2 millones de usuarios activos en el país: 25.9 millones de accesos Móviles (Telefonía e Internet móvil) y más de 1.2 de telefonía fija, siendo superada únicamente por Telcel de América Móvil, perteneciente a Carlos Slim.
+Para el 1° de Julio de 2015, MoviStar ya cuenta con cobertura 4G LTE en 15 ciudades de la República Mexicana, como son; México D.F. y Área Metropolitana, Guadalajara, Monterrey, CD. Juárez, CD. Victoria, Culiacán, Hermosillo, León, Matamoros, Mexicali, Nuevo Laredo, Puebla, Querétaro, Reynosa, San Luis Potosí, Saltillo, Tampico, Tijuana y Toluca. Para la segunda mitad del 2015, se encenderá la red 4G LTE en Acapulco, Cancún, Mérida, Nayarit, Veracruz, Baja California, entre otros más, finalizando con servicio en aproximadamente 50 Ciudades.
+Durante la Campus Party México 2010, se habían realizado pruebas de 4G sobre LTE. En ese entonces, fue la primera red LTE en servicio en el país. Así mismo, en la edición de Campus Party México 2011, se instaló una red LTE 100% real en colaboración con Nokia-Siemens (con permisos especiales de parte del Gobierno), para conectar a los usuarios al servicio 4G, donde se alcanzaron velocidades de 93Mbps. Finalizadas esas pruebas, Movistar comenzó a implantar celdas con capacidad LTE, para estar listos para ofrecer dicho servicio.
+A pesar de contar con una gran variedad tecnológica, su rezago en la ampliación de Cobertura 3.5G/3.75G le impidió en algún momento, competir contra Iusacell o Telcel de forma agresiva en el Servicio de datos 3G, donde las últimas 2 empresas tenían mayoría del mercado. Actualmente, Movistar supera en cobertura y servicio a Iusacell y compite directamente contra Telcel.
+Sobre este tema de rezago, pasó de cubrir 8 ciudades 3G en noviembre de 2008 y 19 Ciudades en 2009, a 60 Ciudades durante 2010 y 2011 y el resto del país en la última parte de 2011, gracias a las licitaciones de frecuencia del Gobierno Mexicano.
+</p>  
+       </div>
+    <div data-role="collapsible" data-content-theme="false">
+       <h1>Logo Movistar</h1>
+          <div>
+              <p>Movistar: </p> 
+             <br>
+          </div> 
+          <div>
+        <img src="imagenes/Movistar.png" width="50%" height="50%">
+    </div>
+    </div> 
+     <div data-role="content" align="center">
+       <div>
+          <p>AT&T (American Telephone and Telegraph) es una compañía estadounidense de telecomunicaciones. Provee servicios de voz, video, datos e Internet a negocios, clientes y agencias del gobierno.
+Durante su larga historia ha sido, en ocasiones, la compañía telefónica más grande del mundo y el operador de televisión por cable más grande de los Estados unidos, llegando a ser clasificada como un monopolio. En 2005 se fusionó con su competidora SBC Communications.3
+American Telephone and Telegraph Corporation (Corporación Estadounidense de Teléfono y Telégrafo) comenzó con el propósito de manejar la última red telefónica a larga distancia de los Estados Unidos (3 de marzo de 1885). Comenzando en Nueva york, la red se extendió a Chicago en 1892, y a San francisco en 1915. Dejó de proveer servicios transatlánticos en 1927 utilizando radios, ya que el primer cable telefónico submarino transatlántico no llegó hasta 1956.
+La creación de la Bell Telephone Company fue consecuencia de un acuerdo entre Alexander Graham Bell y sus socios, entre ellos Gardiner G. Hubbard y Thomas Sanders. Su nombre fue cambiado en varias ocasiones, y ya para 1880 se la conocía como la American Bell Telephone Company. Para 1881, la American Bell había comprado de parte de Western Union un interés mayoritario de la compañía Western Electric. Como dato interesante, tres años antes de que esto ocurriera, Western Union había rechazado una oferta de Gardiner Hubbard, en la cual les ofrecía los derechos sobre el teléfono por un coste de $100 000.
+La patente de Bell sobre el teléfono expiró en 1894, pero la compañía logró "controlar" a la competencia por medio de demandas y corte de precios. El 30 de diciembre de 1899, la American Telephone and Telegraph Corporation compró los activos de American Bell, creando así un monopolio telefónico en los Estados Unidos. Fue conocido como el Sistema Bell debido a que Bell había adquirido en años anteriores distintas compañías a las que había otorgado licencias para producir equipo telefónico.
+El mercado telefónico era competitivo en los comienzos del siglo 20. Durante este periodo, los ejecutivos de AT&T lanzaron varios rumores de que la compañía no se encontraba en buen estado; esto hizo que los inversores de las compañías contratadas por AT&T, por miedo a un colapso, vendieran sus acciones. Tras esto, AT&T compró estas acciones a un precio más barato, y pronto se convirtió, a nivel nacional, en el proveedor principal de servicios telefónicos. En el año 1907, Theodore Vail, presidente de AT&T, propuso que un monopolio formal sería lo más adecuado y eficiente.4 El gobierno de los Estados Unidos aceptó en un principio esta propuesta en 1913 por medio del llamado Compromiso Kingsbury.
+Durante la mayor parte del siglo 20, la subsidiaria de larga distancia de AT&T, AT&T Long Lines, monopolizó casi totalmente los servicios telefónicos a larga distancia en los Estados Unidos. AT&T también controlaba 22 Compañías Operativas Bell, las cuales eran proveedoras de servicio telefónico local a gran parte de los Estados Unidos. Aunque había otras compañías telefónicas independientes, el Sistema Bell era la mayor de todas.
+En 1925, AT&T creó una nueva unidad llamada Laboratorios Telefónicos Bell (Bell Labs). Esta unidad de desarrollo e investigación demostró ser exitosa al comenzar proyectos tales como la astronomía radial, el transistor, el sistema operativo Unix, y el lenguaje de programación C. Sin embargo, su compañía matriz no siempre se aprovechó de estos logros.
+</p>  
+       </div>
+    <div data-role="collapsible" data-content-theme="false">
+       <h1>Logo AT&T: </h1>
+          <div>
+              <p>AT&T: </p> 
+             <br>
+          </div> 
+          <div>
+      <img src="imagenes/atti.png" width="50%" height="50%">  
+    </div>
+    </div>
+     <div data-role="content" align="center">
+       <div>
+          <p>Axtel S.A.B de C.V. es una empresa mexicana de Tecnologías de la Información y Comunicación que atiende los mercados empresarial, de gobierno, pequeños negocios y residencial. A través de su marca Alestra ofrece servicios empresariales y de gobierno y mediante su marca Axtel brinda servicios para mercado masivo y pequeños negocios.
+Axtel es creada en febrero de 2016 y surge a partir de la fusión de dos organizaciones mexicanas, con infraestructura y capacidades complementarias: Alestra y Axtel. De esta forma, la nueva Axtel se convirtió en una compañía subsidiaria de Alfa, quien posee el 51% de su capital y actualmente cuenta con una infraestructura de red de 39 mil kilómetros y 6 mil 500 metros cuadrados de piso blanco, que soportan su portafolio. 
+La principal fortaleza de Axtel es la capacidad de atender con una robusta oferta de servicios de Tecnologías de Información y Comunicación, al mercado empresarial, de gobierno, pequeños negocios y masivo, apoyada por el respaldo de sus dos marcas comerciales Alestra y Axtel.
+Sus servicios más representativos pueden dividirse en:
+Mercado empresarial y de gobierno: Centro de Datos, Nube, Colaboración, Seguridad, Movilidad, servicios administrados, administración de aplicaciones, integración de sistemas, entre otros.
+Mercado masivo (hogares y pequeños negocios): voz, internet de banda ancha (hasta 200 MB simétricos), televisión de paga, seguridad, Smart Home & Business, servicio de movilidad de líneas fijas.
+Gracias a las capacidades combinadas de las empresas que conformaron la fusión, la nueva Axtel cuenta entre sus fortalezas con una infraestructura que incluye:
+Una de las redes más extensas de fibra óptica en Latinoamérica, que supera los 39 mil km y cubre más de 50 ciudades en México.
+Seis Centros de Datos de clase mundial con capacidad mayor a los 6 mil 500 metros cuadrados ubicados en Monterrey, Guadalajara, Ciudad de México y Querétaro, certificados con estándares de nivel mundial.
+ Ocho Centros de Operación a través de los cuales se integran eficazmente funciones, procesos, herramientas y personas, para ofrecer tecnología, operación y administración además de una diversa gama de servicios, soluciones, equipos e infraestructura, mismos que proporcionan la oferta de Axtel.
+Tres Centros Sperto diseñados con un objetivo común: cuestionar y experimentar las más recientes soluciones tecnológicas que demandan las empresas para encontrar la forma en que estas pueden transformar sus negocios. Hub de Innovación: un espacio para motivar la creatividad, propiciar la colaboración y generar ideas, convirtiéndolas en soluciones de valor, mediante la aplicación y desarrollo de tecnología.
+</p>  
+       </div> 
+    <div data-role="collapsible" data-content-theme="false">
+       <h1>Logo Axtel:</h1>
+          <div>
+              <p>Axtel:</p> 
+             <br>
+          </div> 
+          <div>
+        <img src="imagenes/axtel.png" width="50%" height="50%">
+    </div>
+    </div> 
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+            <img src="imagenes/logo.png" width="46" height="46"> 
+        </div>
+       <div> 
+       <h4>App2</h4>
+       <h4>TRO</h4>   
+       </div>  
+    </div> 
+  </div> 
+           
+                         
+</body>
+</html>
